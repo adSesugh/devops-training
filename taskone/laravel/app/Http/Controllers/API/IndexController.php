@@ -9,6 +9,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return 'TALENT PLUS';
+        $data = 'TALENT PLUS';
+        return response()->json($data, 200);
     }
 }

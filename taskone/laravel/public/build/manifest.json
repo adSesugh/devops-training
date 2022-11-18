@@ -1,12 +1,135 @@
 {
-  "resources/js/app.js": {
-    "file": "assets/app.d426e523.js",
-    "src": "resources/js/app.js",
-    "isEntry": true
+  "resources/js/app.jsx": {
+    "file": "assets/app.72b9c768.js",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/ConfirmPassword.jsx",
+      "resources/js/Pages/Auth/ForgotPassword.jsx",
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Auth/ResetPassword.jsx",
+      "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "css": [
+      "assets/app.4761fb38.css"
+    ]
   },
-  "resources/css/app.css": {
-    "file": "assets/app.8fe86486.css",
-    "src": "resources/css/app.css",
-    "isEntry": true
+  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
+    "file": "assets/ConfirmPassword.a10416b3.js",
+    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_TextInput.21f5e0c1.js",
+      "_InputLabel.7d2b31f1.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "_PrimaryButton.1d5ac7ec.js": {
+    "file": "assets/PrimaryButton.1d5ac7ec.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "_TextInput.21f5e0c1.js": {
+    "file": "assets/TextInput.21f5e0c1.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_InputLabel.7d2b31f1.js": {
+    "file": "assets/InputLabel.7d2b31f1.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_ApplicationLogo.ad11b31c.js": {
+    "file": "assets/ApplicationLogo.ad11b31c.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Auth/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword.2f31ab5b.js",
+    "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_TextInput.21f5e0c1.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login.6e2bd235.js",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_TextInput.21f5e0c1.js",
+      "_InputLabel.7d2b31f1.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register.c33a47b7.js",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_TextInput.21f5e0c1.js",
+      "_InputLabel.7d2b31f1.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ResetPassword.jsx": {
+    "file": "assets/ResetPassword.b6b4bf68.js",
+    "src": "resources/js/Pages/Auth/ResetPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_TextInput.21f5e0c1.js",
+      "_InputLabel.7d2b31f1.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Auth/VerifyEmail.jsx": {
+    "file": "assets/VerifyEmail.9bb347ce.js",
+    "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PrimaryButton.1d5ac7ec.js",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard.a9ff85fa.js",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo.ad11b31c.js"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome.849d4c5b.js",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.4761fb38.css",
+    "src": "resources/js/app.css"
   }
 }

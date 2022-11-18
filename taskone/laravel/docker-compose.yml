@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: adsesugh/taskone
+    image: adsesugh/php-app
     container_name: app
     restart: unless-stopped
     tty: true
@@ -22,9 +22,9 @@ services:
 
   #Nginx Service
   webserver:
-    image: nginx:alpine
+    image: nginx:1.23.2-alpine
     container_name: webserver
-    restart: unless-stopped
+    restart: always
     tty: true
     ports:
       - "8000:80"

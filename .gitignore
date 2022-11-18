@@ -1,3 +1,6 @@
-/taskone/vendor
-/taskone/.env
-/taskone/node_modules
+/taskone/laravel/vendor
+/taskone/laravel/.env
+/taskone/laravel/node_modules
+/taskone/python-api/.venv
+/taskone/node-api/frontend/node_modules
+/taskone/node-api/backend/node_modules

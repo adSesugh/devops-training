@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title><?php echo e(env('app.name', 'PROJECT 1')); ?></title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
             <?php endif; ?>
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <h1><?php echo e($string); ?></h1>
+                <h1 class="dark:text-white"><?php echo e($string); ?></h1>
             </div>
         </div>
     </body>
