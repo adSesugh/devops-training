@@ -24,7 +24,7 @@ To run the app after installing docker do the following below:
 *******************************************
 -   Change to nodejs app directory
 -   Run `docker-compose up -d`
--   In your browser use http://localhost:5173 to access the api
+-   In your browser use http://localhost:3050 to access the api
 
 
 ### To Do
