@@ -5,5 +5,4 @@
 /weekOne/react-nodejs-app/client/node_modules
 /weekOne/react-nodejs-app/server/node_modules
 /weekTwo/nodejs-app/backend/node_modules
-weekTwo/nodejs-app/backend/node_modules
-weekTwo/nodejs-app/frontend/node_modules
+/weekTwo/nodejs-app/frontend/node_modules
