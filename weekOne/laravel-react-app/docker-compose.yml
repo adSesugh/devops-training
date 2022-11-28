@@ -1,12 +1,12 @@
 version: '3.7'
 services:
-  
+
   #PHP Service
   app:
     build:
       context: .
       dockerfile: Dockerfile
-    image: adsesugh/php-app
+    image: adsesugh/laravel-react-app
     container_name: app
     restart: unless-stopped
     tty: true

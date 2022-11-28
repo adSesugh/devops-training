@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weektwo-nodejs-client
+spec:
+  selector:
+    matchLabels:
+      app: weektwo-nodejs-client
+  template:
+    metadata:
+      labels:
+        app: weektwo-nodejs-client
+    spec:
+      containers:
+      - name: weektwo-nodejs-client
+        image: adsesugh/weektwo-nodejs-client
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80

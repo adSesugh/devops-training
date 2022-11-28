@@ -1,6 +1,9 @@
-/taskone/laravel/vendor
-/taskone/laravel/.env
-/taskone/laravel/node_modules
-/taskone/python-api/.venv
-/taskone/node-api/frontend/node_modules
-/taskone/node-api/backend/node_modules
+/weekOne/laravel-react-app/vendor
+/weekOne/laravel-react-app/.env
+/weekOne/laravel-react-app/node_modules
+/weekOne/python-api/.venv
+/weekOne/react-nodejs-app/client/node_modules
+/weekOne/react-nodejs-app/server/node_modules
+/weekTwo/nodejs-app/backend/node_modules
+weekTwo/nodejs-app/backend/node_modules
+weekTwo/nodejs-app/frontend/node_modules

@@ -27,9 +27,11 @@ To run the app after installing docker do the following below:
 -   In your browser use http://localhost:3050 to access the api
 
 
-### To Do
--   Java api using spring boot
--   Python api using django or fastAPI, Flask
--   Continuation of week 2 project
+### WEEK 2 PROJECT TASK 
+
+1. Create a helm chart
+2. Your helm chart should deploy you two application containers: frontend app and it’s backend into your Kubernetes cluster
+3. configure nginx Ingress to access your applications 
+
 
 
